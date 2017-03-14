@@ -15,6 +15,7 @@ header p {
 .wrapper {
   display: flex;
   border: solid 2px black;
+  max-width: 50%;
   justify-content: center;
   flex-flow: column nowrap;
 }
