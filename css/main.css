@@ -16,7 +16,7 @@ header p {
   display: flex;
   border: solid 2px black;
   justify-content: center;
-  flex-flow: row wrap;
+  flex-flow: column nowrap;
 }
 section {
   display: flex;
