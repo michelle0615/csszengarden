@@ -1,0 +1,77 @@
+header {
+  display: flex;
+  background-color: #FFFFFF;
+  width: 800px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: #333;
+  
+}
+header p {
+  color: rgba(236, 149, 149, .5);
+}
+.wrapper {
+  display: flex;
+  border: solid 2px black;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+section {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 800px;
+  height: 300px;
+  text-align: center;
+  margin: 20px;
+}
+
+h1{
+  margin: 10px;
+  color: #fff;
+  font-family: 'Righteous';
+
+}
+p {
+  color: #ffffff;
+  font-family: 'Abel', sans-serif;
+  line-height: 1.75;
+}
+
+.demo {
+  display: flex;
+  background: rgba(236, 149, 149, .5);
+  font-size: 18px;
+   
+}
+.enlightenment {
+  display: flex;
+  background: rgba(154, 123, 180, .5);
+}
+
+.about {
+  display:flex;
+  background: rgba(120, 141, 160, .5);
+}
+
+.participation{
+  display:flex;
+  background: rgba(236, 149, 149, .5);
+}
+
+.benefits {
+  display:flex;
+  background: rgba(154, 123, 180, .5);
+}
+
+.requirements {
+  display: flex;
+  background: rgba(120, 141, 160, .5);
+}
+
+.requirements2 {
+  display: flex;
+  background: rgba(120, 141, 160, .5);
+}
+
