@@ -75,3 +75,8 @@ p {
   background: rgba(120, 141, 160, .5);
 }
 
+@media (min-width: 1670px){
+  section {
+    max-width: 50%;
+  }
+}
