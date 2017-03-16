@@ -6,7 +6,7 @@ header {
   justify-content: center;
   align-items: center;
   font-size: 50px;
-  color: #333;
+  color: rgba(0, 0, 0, 0.5) ;
   
 }
 header p {
@@ -14,9 +14,8 @@ header p {
 }
 .wrapper {
   display: flex;
-  max-width: 50%;
   justify-content: center;
-  flex-flow: column nowrap;
+  flex-flow: row wrap;
 }
 section {
   display: flex;
@@ -64,6 +63,7 @@ p {
   display:flex;
   background: rgba(154, 123, 180, .5);
 }
+
 
 .requirements {
   display: flex;
